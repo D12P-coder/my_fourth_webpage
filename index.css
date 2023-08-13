@@ -1,0 +1,66 @@
+body{
+    background-image: url(pexels-pixabay-531880.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    text-align: center;
+    color: skyblue;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul{
+    padding: 0px;
+}
+nav ul li{
+    display: inline;
+    padding: 10px;
+}
+
+nav ul li a{
+    border: 1px solid aqua;
+    padding: 5px 10px;
+    color: aqua;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    background-color: black;
+}
+
+.one{
+    height: 30vh;
+    width: 100%;
+}
+.containerone{
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.two{
+    height: 30vh;
+    width: 100%;
+}
+.three{
+    height: 30vh;
+    width: 100%;
+}
+.four{
+    height: 30vh;
+    width: 100%;
+}
+#learn{
+    margin-top: 5px;
+    cursor: pointer;
+    background-color: grey;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 10px;
+    color: skyblue;
+}
+#learn:hover{
+    background-color: black;
+}
